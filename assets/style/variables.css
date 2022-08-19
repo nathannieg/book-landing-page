@@ -1,0 +1,18 @@
+:root {
+  --ff-main:'Poppins', sans-serif;
+  --ff-subtitle:'Raleway', sans-serif;
+
+
+  --color-order-button: #EDECEC;
+  --color-bg: #EDECEC;
+  --color-font: #4C4C4C;
+  --color-title: #292929;
+  --color-menu: #040404;
+  --color-primary: #FFC302;
+  --color-secondary: #F89F5B;
+  --color-gradient-bg-mobile: linear-gradient(to bottom, #f89f5b, #ffc302);
+  --color-reverse-gradient-bg-desktop: linear-gradient(to top, #f89f5b,#ffc302);;
+
+  font-size: 62.5%;
+}
+
