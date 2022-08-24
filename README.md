@@ -23,11 +23,12 @@ Under construction
 
 ### Links
 
-Under construction
+[Live site](https://book-lp.netlify.app/)
 
 ### Technologies
 
-Under construction
+HTML
+CSS
 
 ### Lessons learned
 
