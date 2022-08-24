@@ -1,0 +1,13 @@
+/* MOBILE */
+
+body {
+  font-family: var(--ff-main);
+  font-size: 1.6rem;
+  color: var(--color-font);
+
+
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* DESKTOP */

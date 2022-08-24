@@ -1,0 +1,23 @@
+/* MOBILE */
+.footer {
+  background-color: var(--color-font);
+  width: 100%;
+  padding: 4rem 3.8rem 4rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  text-align: center;
+  color: var(--color-bg);
+}
+
+.developer {
+  color: var(--color-primary);
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding: 4rem 10rem 4rem;
+  }
+}

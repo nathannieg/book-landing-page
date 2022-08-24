@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Raleway:ital,wght@1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/style/mobile.css" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
   </head>
   <body>
     <!-- Menu -->
@@ -40,36 +40,62 @@
         src="./assets/img/cover.jpg"
         alt="Cover of the book 'Sunshine Girl: an unexpected life', featuring author Julianna Margulies"
       />
+
+      <div class="header__desktop">
+        <div class="header__desktop__left">
+          <p class="header__desktop__left__description">
+            Known for her outstanding performances on the groundbreaking
+            television series The Good Wife and ER, Julianna Margulies deftly
+            chronicles her life and her work in this deeply powerful memoir.
+          </p>
+          <a
+            href="https://www.penguinrandomhouse.com/books/572574/sunshine-girl-by-julianna-margulies/"
+            class="header__desktop__left__button"
+            >Available now</a
+          >
+        </div>
+        <img
+          src="./assets/img/header-desktop2.png"
+          alt="Sunshine girl book cover shown on a physical copy, cell phone screen and tablet screen"
+          class="header__desktop__image"
+        />
+      </div>
     </header>
     <!-- Book -->
     <section id="book">
-      <p class="book__tag">About the book</p>
-      <h1 class="book__title">
-        Sunshine Girl <br /><span>an unexpected life</span>
-      </h1>
-      <p class="book__description">
-        Known for her outstanding performances on the groundbreaking television
-        series The Good Wife and ER, Julianna Margulies deftly chronicles her
-        life and her work in this deeply powerful memoir.<br /><br />
-        As an apple-cheeked bubbly child, Julianna was bestowed with the family
-        nickname “Sunshine Girl.” Shuttled back and forth between her divorced
-        parents, often on different continents, she quickly learned how to be of
-        value to her eccentric mother and her absent father. Raised in fairly
-        unconventional ways in various homes in Paris, England, New York, and
-        New Hampshire, Julianna found that her role among the surrounding
-        turmoil and uncertainty was to comfort those around her, seeking
-        organization among the disorder, making her way in the world as a young
-        adult and eventually an award-winning actress.<br /><br />
-        Throughout, there were complicated relationships, difficult choices, and
-        overwhelming rejections. But there were also the moments where fate,
-        faith, and talent aligned, leading to the unforgettable roles of a
-        lifetime, both professionally and personally—moments when chaos had
-        finally turned to calm.<br /><br />
-        Filled with intimate stories and revelatory moments, Sunshine Girl is at
-        once unflinchingly honest and perceptive. It is a riveting self-portrait
-        of a woman whose resilience in the face of turmoil will leave readers
-        intrigued and inspired.
-      </p>
+      <div class="book__info">
+        <div class="book__left">
+          <p class="book__tag">About the book</p>
+          <h1 class="book__title">
+            Sunshine Girl <br /><span>an unexpected life</span>
+          </h1>
+          <p class="book__description">
+            Known for her outstanding performances on the groundbreaking
+            television series The Good Wife and ER, Julianna Margulies deftly
+            chronicles her life and her work in this deeply powerful memoir.<br /><br />
+            As an apple-cheeked bubbly child, Julianna was bestowed with the
+            family nickname “Sunshine Girl.” Shuttled back and forth between her
+            divorced parents, often on different continents, she quickly learned
+            how to be of value to her eccentric mother and her absent father.<br /><br />
+          </p>
+        </div>
+        <p class="book__description">
+          Raised in fairly unconventional ways in various homes in Paris,
+          England, New York, and New Hampshire, Julianna found that her role
+          among the surrounding turmoil and uncertainty was to comfort those
+          around her, seeking organization among the disorder, making her way in
+          the world as a young adult and eventually an award-winning actress.<br /><br />
+          Throughout, there were complicated relationships, difficult choices,
+          and overwhelming rejections. But there were also the moments where
+          fate, faith, and talent aligned, leading to the unforgettable roles of
+          a lifetime, both professionally and personally—moments when chaos had
+          finally turned to calm.<br /><br />
+          Filled with intimate stories and revelatory moments, Sunshine Girl is
+          at once unflinchingly honest and perceptive. It is a riveting
+          self-portrait of a woman whose resilience in the face of turmoil will
+          leave readers intrigued and inspired.
+        </p>
+      </div>
       <ul class="book__list">
         <li class="book__item">
           <a
@@ -136,34 +162,52 @@
           alt="Picture of actress and writer Julianna Margulies laughing"
           class="author__image"
         />
+        <div class="author__desktop__socialmedia">
+          <a href="https://www.instagram.com/juliannamargulies/" target="_blank"
+            ><img
+              src="./assets/img/instagram.svg"
+              alt="Instagram icon"
+              class="author__socialmedia--icon"
+          /></a>
+          <a href="https://www.facebook.com/juliannamargulies" target="_blank"
+            ><img
+              src="./assets/img/facebook.svg"
+              alt="Facebook icon"
+              class="author__socialmedia--icon"
+          /></a>
+        </div>
       </div>
-      <h2 class="author__name">Julianna Margulies</h2>
-      <p class="author__description">
-        As an Emmy, Golden Globe, and Screen Actors Guild award winner, Julianna
-        Margulies has achieved success in television, theater, and film.
-        <br /><br />
-        Margulies starred as Alicia Florrick on the long-running hit CBS show
-        The Good Wife, which she also produced, and is also well known for her
-        role as one of the original cast members of ER. More recently, Margulies
-        has starred on critically acclaimed series including The Morning Show,
-        Billions, and The Hot Zone. <br /><br />She has been involved with
-        Project ALS and Erin’s Law and is also a board member of the New York
-        City–based MCC Theater company. <br /><br />She resides in New York City
-        with her husband and son.
-      </p>
-      <div class="author__socialmedia">
-        <a href="https://www.instagram.com/juliannamargulies/" target="_blank"
-          ><img
-            src="./assets/img/instagram.svg"
-            alt="Instagram icon"
-            class="author__socialmedia--icon"
-        /></a>
-        <a href="https://www.facebook.com/juliannamargulies" target="_blank"
-          ><img
-            src="./assets/img/facebook.svg"
-            alt="Facebook icon"
-            class="author__socialmedia--icon"
-        /></a>
+      <div class="author__left">
+        <h2 class="author__name">Julianna Margulies</h2>
+
+        <p class="author__description">
+          As an Emmy, Golden Globe, and Screen Actors Guild award winner,
+          Julianna Margulies has achieved success in television, theater, and
+          film.
+          <br /><br />
+          Margulies starred as Alicia Florrick on the long-running hit CBS show
+          The Good Wife, which she also produced, and is also well known for her
+          role as one of the original cast members of ER. More recently,
+          Margulies has starred on critically acclaimed series including The
+          Morning Show, Billions, and The Hot Zone. <br /><br />She has been
+          involved with Project ALS and Erin’s Law and is also a board member of
+          the New York City–based MCC Theater company. <br /><br />She resides
+          in New York City with her husband and son.
+        </p>
+        <div class="author__socialmedia">
+          <a href="https://www.instagram.com/juliannamargulies/" target="_blank"
+            ><img
+              src="./assets/img/instagram.svg"
+              alt="Instagram icon"
+              class="author__socialmedia--icon"
+          /></a>
+          <a href="https://www.facebook.com/juliannamargulies" target="_blank"
+            ><img
+              src="./assets/img/facebook.svg"
+              alt="Facebook icon"
+              class="author__socialmedia--icon"
+          /></a>
+        </div>
       </div>
     </section>
     <section id="news">
