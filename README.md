@@ -4,8 +4,8 @@
   <img src="https://i.imgur.com/dygwmmV.png" />
 </p>
 
-<p align="center" height="200px" width="auto">
-  <img src="https://i.imgur.com/qsBHrpC.png" />
+<p align="center">
+  <img height="200px" width="auto" src="https://i.imgur.com/qsBHrpC.png" />
 </p>
 
 This project was developed as part of my training in web development. My purpose here is to enhance my skills in HTML, CSS and responsive web applications only.
