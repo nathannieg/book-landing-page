@@ -16,6 +16,8 @@ I am in now way affiliated with the author or Penguin Random House, nor am I mak
 
 No Copyright infringment intended.
 
+[Visit the live site](https://book-lp.netlify.app/)
+
 ## Index
 
 - [About](#about)
