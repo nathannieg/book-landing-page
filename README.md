@@ -33,8 +33,8 @@ No Copyright infringment intended.
 
 ### Technologies
 
-HTML
-CSS
+- HTML
+- CSS
 
 ### Lessons learned
 
