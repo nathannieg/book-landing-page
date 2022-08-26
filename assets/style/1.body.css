@@ -9,3 +9,17 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+
+#home {
+  position:fixed;
+	bottom:40px;
+	right:50px;
+	text-align:center;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .home__arrow {
+    display: none;
+  }
+}
