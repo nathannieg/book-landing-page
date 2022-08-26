@@ -1,5 +1,9 @@
 # Book Landing Page
 
+![desktop](https://i.imgur.com/dygwmmV.png)
+
+![mobile](https://i.imgur.com/qsBHrpC.png)
+
 This project was developed as part of my training in web development. My purpose here is to enhance my skills in HTML, CSS and responsive web applications only.
 
 I use as inspiration the book "Sunshine Girl: an unexpected life", but the idea is that with a few simple changes, one would be able to change the content and color pallette.
@@ -19,8 +23,6 @@ No Copyright infringment intended.
 
 ## About
 
-Under construction
-
 ### Links
 
 [Live site](https://book-lp.netlify.app/)
@@ -32,14 +34,13 @@ CSS
 
 ### Lessons learned
 
-Under construction
+- Responsive web design with HTML and CSS
+- BEM methodology
+- UX and layout development
+- Deployment
 
 ## Developer
 
 - Github - [Nathannie Gomes](https://github.com/nathannieg)
 - LinkedIn - [Nathannie Gomes](https://www.linkedin.com/in/nathanniegomes/)
 - Frontend Mentor - [@nathannieg](https://www.frontendmentor.io/profile/nathannieg)
-
-## Thanks
-
-Under construction
